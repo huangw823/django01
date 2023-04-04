@@ -25,11 +25,13 @@ SECRET_KEY = 'django-insecure-_$cel5#9!z&&z9u2$m+q3u*%%&+lj063(t5-*ewv@y%41b!u8w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+#可以访问该项目的ip地址，默认为127.0.0.1,若需要可以在该列表添加可以访问的ip
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
+#用于注册子应用
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'book'
 ]
 
 MIDDLEWARE = [
@@ -103,9 +106,11 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+#设置该项目所属的是哪个国家的语言
+LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+#设置该项目的所属哪个国家的时间
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
