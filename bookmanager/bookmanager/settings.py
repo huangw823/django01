@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+#当前工程的根目录，Django会依此来定位工程内的相关文件，我们也可以使用该参数来构造文件路径。
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -125,8 +126,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+# 浏览器访问静态文件的url
 STATIC_URL = '/static/'
 
+# 指定静态文件目录（属性名STATICFILES_DIRS固定）
+STATICFILES_DIRS = [
+    BASE_DIR/'static_hw',
+]
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
