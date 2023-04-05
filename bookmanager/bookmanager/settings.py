@@ -52,6 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+#设置浏览器发送请求到后端根据什么py文件校验url对应的视图函数
 ROOT_URLCONF = 'bookmanager.urls'
 
 TEMPLATES = [

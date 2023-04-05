@@ -15,7 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls import include
+from book import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    #path('url地址/', 根据url地址响应指定的视图函数（填写函数名）),
+    # path('index/', views.index),
+
+    #当url过多不利于我们管理，
+    #我们可以将每个子应用的url归每个子应用的urls.py文件管理
+    #我们只需要在主项目中的urls.py文件中include每一个子应用的urls.py文件袋路径
+    #path('子应用主url（随意取）', include('子应用的urls.py文件路径')),
+    path('', include('book.urls')),
 ]
