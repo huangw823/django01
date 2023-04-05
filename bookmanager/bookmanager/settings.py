@@ -55,10 +55,12 @@ MIDDLEWARE = [
 #设置浏览器发送请求到后端根据什么py文件校验url对应的视图函数
 ROOT_URLCONF = 'bookmanager.urls'
 
+#模板相关配置
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        #配置模板查找的路径
+        'DIRS': [BASE_DIR/'templates',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

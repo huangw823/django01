@@ -11,4 +11,11 @@ from django.http import HttpRequest
 """
 def index(request): #request参数就是浏览器的请求体
     """返回一个ok"""
-    return HttpResponse("ok")
+    # return HttpResponse("ok")
+
+    # render(request, template_name, context=None,             )
+    # request, 请求体
+    # template_name, 渲染的模板文件
+    # context=None, 视图（view）与模板的数据交互
+    context={"name":"雷军"}
+    return render(request,'book/index.html',context=context)
