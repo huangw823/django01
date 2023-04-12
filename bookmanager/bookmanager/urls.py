@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 from book import views
+from django.conf.urls import include
+from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -28,4 +30,6 @@ urlpatterns = [
     #我们只需要在主项目中的urls.py文件中include每一个子应用的urls.py文件袋路径
     #path('子应用主url（随意取）', include('子应用的urls.py文件路径')),
     path('', include('book.urls')),
+    path('echart/', include('smart_chart.echart.urls')),
+    path('', RedirectView.as_view(url='echart/index/')),  # 首页,可自定义路由
 ]

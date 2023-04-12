@@ -74,10 +74,15 @@ WSGI_APPLICATION = 'bookmanager02.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+#数据库相关配置
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql', #驱动
+        'NAME': 'book', #数据库名
+        'HOST':'192.168.182.150', #数据库ip
+        'USER':'root', #用户名
+        'PASSWORD':'123', #密码
+        'PORT':'3306' #数据库端口号
     }
 }
 

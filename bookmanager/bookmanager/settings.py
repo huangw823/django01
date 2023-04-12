@@ -34,13 +34,15 @@ ALLOWED_HOSTS = ['*']
 
 #用于注册子应用
 INSTALLED_APPS = [
+    'smart_chart.smartui',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'book.apps.BookConfig'
+    'book.apps.BookConfig',
+    'smart_chart.echart'
 ]
 
 MIDDLEWARE = [
@@ -120,7 +122,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
