@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31961d89-0030-4927-a9dc-88b4fd27bf56" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../bookmanager/bookmanager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager/bookmanager/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager/bookmanager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager/bookmanager/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanager02/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanager02/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookmanager02/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmanager02/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="31961d89-0030-4927-a9dc-88b4fd27bf56" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/book/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
-              <caret line="143" selection-start-line="143" selection-end-line="143" selection-end-column="49" />
+              <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -105,7 +96,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookmanager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bookmanager03" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -162,12 +153,12 @@
       <workItem from="1681118058739" duration="4103000" />
       <workItem from="1681201103526" duration="5883000" />
       <workItem from="1681222613945" duration="1743000" />
-      <workItem from="1681288011571" duration="2027000" />
+      <workItem from="1681288011571" duration="3351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21216000" />
+    <option name="totallyTimeSpent" value="22540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="27" width="1654" height="899" extended-state="6" />
@@ -250,7 +241,7 @@
     <entry file="file://$PROJECT_DIR$/book/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="143" selection-start-line="143" selection-end-line="143" selection-end-column="49" />
+          <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
