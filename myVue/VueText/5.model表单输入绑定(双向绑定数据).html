@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="../js/vue.js"></script>
+<body>
+<div id="hw">
+    <table border="2px">
+        <tr>
+            <td>用户名</td>
+            <!--普通框通过v-model拿值-->
+            <td><input type="text" v-model="username"></td>
+        </tr>
+        <tr>
+            <td>密码</td>
+            <td><input type="password" v-model="pwd"></td>
+        </tr>
+        <tr>
+            <td>确定密码</td>
+            <!--普通框通过v-model拿值-->
+            <td><input type="password" v-model="pwdd"></td>
+        </tr>
+        <tr>
+            <td>性别</td>
+            <td>
+                <!--单选框每一个框都要设置value（不然拿不到值），还要设置v-model指向Vue对象的同一个变量-->
+                男<input type="radio" name="sex" v-model="sex" value="男">
+                女<input type="radio" name="sex" v-model="sex" value="女">
+            </td>
+        </tr>
+        <tr>
+            <td>爱好</td>
+            <td>
+                <!--多选框每一个框都要设置value（不然拿不到值），还要设置v-model指向Vue对象的同一个变量-->
+                足球<input type="checkbox" v-model="aihao" value="足球">
+                篮球<input type="checkbox" v-model="aihao" value="篮球">
+                乒乓球<input type="checkbox" v-model="aihao" value="乒乓球">
+            </td>
+        </tr>
+        <tr>
+            <td>所在城市</td>
+            <td>
+                <!--给下拉框的select设置v-model指向Vue变量，给每个option设置value-->
+                <select v-model="cs">
+                    <option  value="北京">北京</option>
+                    <option value="上海">上海</option>
+                    <option  value="广州">广州</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>个人简介</td>
+            <!--普通框通过v-model拿值-->
+            <td><textarea v-model="js"></textarea></td>
+        </tr>
+    </table>
+    <button @click="mylogin" >注册</button>
+</div>
+
+</body>
+<script>
+
+    var app=new Vue({
+        el:'#hw',
+        data:{
+            username:'',
+            pwd:'',
+            pwdd:'',
+            sex:'',
+            aihao:[],
+            cs:'',
+            js:''
+
+        },
+        methods:{
+            mylogin:function () {
+                // this 代表本对象
+                alert(this.username+this.pwd+this.pwdd+this.sex+this.aihao+this.cs+this.js)
+            }
+        }
+    })
+</script>
+</html>

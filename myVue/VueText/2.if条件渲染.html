@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if条件渲染</title>
+</head>
+    <script src="../js/vue.js"></script>
+<body>
+<div id="huang">
+    <!--if为true则就渲染该标签-->
+    <h1 v-if="myif">if测试</h1>
+
+    <hr>
+    <!--v-if和v-else-->
+    <span v-if="myelse">个人中心</span>
+    <span v-else>请登录</span>
+
+    <hr>
+    <!--v-if,v-else-if和v-else-->
+    <img src="" alt="皇帝" v-if="level === 1">
+    <img src="" alt="皇亲" v-else-if="level === 2">
+    <img src="" alt="国戚" v-else-if="level === 3">
+    <img src="" alt="大臣" v-else>
+
+    <hr>
+    <!--v-show-->
+    <span v-if="myshow">v-if</span>
+    <span v-show="myshow">v-show</span>
+</div>
+
+</body>
+<script>
+    var hw=new Vue({
+        el:'#huang',
+        data:{
+            myif:true,
+            myelse:true,
+            level:1,
+            myshow:false
+        }
+    })
+</script>
+</html>

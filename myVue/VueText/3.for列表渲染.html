@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for列表渲染</title>
+</head>
+<script src="../js/vue.js"></script>
+<body>
+<div id="huang">
+    <!--v-for 普通迭代列表-->
+    <ul>
+        <!--v-for="变量名 in 可迭代对象名"-->
+        <li v-for="v in a">{{v}}</li>
+    </ul>
+    <hr>
+    <!--v-for带index 迭代列表-->
+    <ul>
+        <!--v-for="(列表元素,下标) in 可迭代对象名"-->
+        <li v-for="(v,i) in a">{{i}}:{{v}}</li>
+    </ul>
+    <hr>
+    <!--在 v-for 里使用对象-->
+    <ul>
+        <!--遍历字典（默认遍历字典的值）-->
+        <li v-for="v in b">{{v}}</li>
+
+        <hr>
+        <!--遍历字典键和值（默认遍历字典的值）-->
+        <!--(字典值,字典键) in 字典对象名-->
+        <li v-for="(v,k) in b">{{k}}:{{v}}</li>
+
+        <hr>
+        <!--遍历字典套列表（默认遍历字典的值）-->
+        <!--v-for="列表对象 in 字典对象名"-->
+        <li v-for="o in c">{{o.name}}--{{o.age}}</li>
+    </ul>
+
+</div>
+
+</body>
+<script>
+    var hw=new Vue({
+        el:'#huang',
+        data:{
+            a:['上海','北京','深圳','杭州'], //定义一个列表对象
+            b:{name:'huangwei',age:18,sex:'男'},
+            c:[
+                {name:'huang',age:15},
+                {name:'wei',age:50}
+            ]
+        }
+    })
+</script>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>methods事件</title>
+</head>
+<script src="../js/vue.js"></script>
+<body>
+    <div id="h">
+        <button v-on:click="num += 1">点击加一</button>
+        <span>{{num}}</span>
+        <hr>
+
+        <!--事件处理方法,给事件绑定方法-->
+        <button v-on:click="c1">点击问候所有人</button>
+        <hr>
+
+        <!--事件处理方法传递参数-->
+        <button v-on:click="c2('黄维')">点击问候</button>
+
+    </div>
+
+</body>
+<script>
+    var hw= new Vue({
+        el:'#h',
+        data:{
+            num:0
+        },
+        //methods是一个保存所有方法的字典，键为方法名，值为function方法体
+        methods:{
+            c1:function () {
+                alert('问候你们所有人')
+            },
+            c2:function (name) {
+                alert('问候'+name)
+            }
+        }
+    })
+
+</script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>es6箭头函数</title>
+</head>
+<!--<script src="../js/vue.js"></script>-->
+<body>
+
+</body>
+<script>
+    // var 变量名改接收方法=参数=>方法体
+    var a=()=>{
+        alert('无参数')
+    }
+    a() //直接变量名()调用
+
+    var b=(myb)=>{
+        alert(myb)
+    }
+    b('带参数')
+
+    var c=(myb)=>{
+        return myb
+    }
+    alert(c('带参数，有返回值'))
+</script>
+</html>

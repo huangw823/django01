@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一个Vue应用</title>
+</head>
+<script src="../js/vue.js"></script>
+<body>
+    <div id="huang">
+        {{hw}}
+        [[hw]]
+
+        <hr>
+        <a :href="wei">点击跳转(v-bind简写)</a><br>
+        <a v-bind:href="wei">点击跳转(v-bind全写)</a>
+    </div>
+        <!--不在div对象内，使用不到变量-->
+    <span>{{hw}}</span>
+
+</body>
+<script>
+    var appVue=new Vue({
+        // el:'#huang', //css选择器
+        el:'div',
+        delimiters:['[[',']]'],
+        data:{ //该对象的变量，在能在该对象标签内使用
+            hw:'我的一个Vue，hello Vue',
+            wei:'https://www.baidu.com'
+        }
+     })
+</script>
+</html>

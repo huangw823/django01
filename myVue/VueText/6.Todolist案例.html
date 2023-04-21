@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todolist案例</title>
+</head>
+<script src="../js/vue.js"></script>
+<body>
+<div id="hw">
+    <input v-model="mytext">
+    <button @click="tianjia">添加</button>
+    <hr>
+    <ul>
+        <li v-for="item in items">{{item}}</li>
+    </ul>
+
+</div>
+</body>
+<script>
+    var app=new Vue({
+        el:'#hw',
+        data:{
+            items:[],
+            mytext:''
+        },
+        methods:{
+            tianjia:function () {
+                this.items.push(this.mytext)
+                this.mytext=''
+            }
+        }
+    })
+</script>
+</html>

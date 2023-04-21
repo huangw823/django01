@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f9619e3-09e3-488a-9914-5f9872e7fe0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../bookmanager/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager/.idea/dataSources/ad34d9a3-e03f-44fc-9f36-55814d3ea673.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager/.idea/dataSources/ad34d9a3-e03f-44fc-9f36-55814d3ea673.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager/.idea/dataSources/ad34d9a3-e03f-44fc-9f36-55814d3ea673/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager/.idea/dataSources/ad34d9a3-e03f-44fc-9f36-55814d3ea673/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager/book/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager/book/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager/book/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager/templates/book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager/templates/book/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/.idea/bookmanager02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/.idea/bookmanager02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/book/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/book/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/book/migrations/0002_peopleinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/book/migrations/0002_peopleinfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/book/migrations/0003_auto_20230406_1033.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/book/migrations/0003_auto_20230406_1033.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/book/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bookmanager02/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../bookmanager02/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="9f9619e3-09e3-488a-9914-5f9872e7fe0a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="836">
               <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -51,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bookmanager03/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+            <state relative-caret-position="990">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -60,7 +41,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/book/myMiddleware.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="330">
               <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
             </state>
           </provider>
@@ -69,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda3/envs/MyDjango/lib/python3.7/site-packages/django/utils/deprecation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
+            <state relative-caret-position="2838">
               <caret line="133" column="42" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="42" />
             </state>
           </provider>
@@ -78,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/book/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
+            <state relative-caret-position="2310">
               <caret line="105" column="11" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="11" />
             </state>
           </provider>
@@ -109,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-51" />
     <option name="y" value="190" />
     <option name="width" value="1634" />
@@ -147,7 +128,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myVue" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -261,20 +242,19 @@
       <workItem from="1681461988193" duration="7375000" />
       <workItem from="1681721027587" duration="7422000" />
       <workItem from="1681807187108" duration="5467000" />
+      <workItem from="1681982699709" duration="111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35479000" />
+    <option name="totallyTimeSpent" value="35590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="27" width="1654" height="899" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16022444" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1627182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="manage.py@bookmanager03" weight="0.32980132" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32980132" />
@@ -288,6 +268,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32980132" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="manage.py@bookmanager03" order="13" weight="0.32980132" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -391,7 +372,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/book/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
+        <state relative-caret-position="836">
           <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -401,28 +382,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bookmanager03/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        <state relative-caret-position="990">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/MyDjango/lib/python3.7/site-packages/django/utils/deprecation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
+        <state relative-caret-position="2838">
           <caret line="133" column="42" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
+        <state relative-caret-position="2310">
           <caret line="105" column="11" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/book/myMiddleware.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="330">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
